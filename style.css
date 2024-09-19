@@ -1,0 +1,53 @@
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+body {
+  background-color: peachpuff;
+  text-align: center;
+  color: #973131;
+}
+
+#quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0, 1, 10px;
+}
+
+#question {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+#options {
+  display: grid;
+  gap: 50px;
+  margin: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #E0A75E;
+  color: #973131;
+  font-size; 1rem;
+  border-radius: 8px;
+  border-color: #E0A75E;
+  box-shadow: 0, 10, 10px;
+}
+
+button:hover {
+  background-color: #F5E7B2;
+}
