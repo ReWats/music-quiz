@@ -15,15 +15,6 @@ body {
   color: #973131;
 }
 
-.circle {
-  color: #973131;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  bottom: 0;
-}
-
 #quiz {
   max-width: 600px;
   margin: 0 auto;
