@@ -1,8 +1,26 @@
 const quizData = [
   {
+    question: "Which single has had the longest uninterrupted run at number 1 in the UK charts?",
+    options: ["We Don't Talk About Bruno, Encanto Soundtrack", "Last Christmas, Wham", "I Feel It In My Fingers, Wet, Wet, Wet", "Everything I Do, Bryan Adams"],
+    answer: "Everything I Do, Bryan Adams"
+  },
+  
+  {
     question: "Who is the biggest selling music act of all time?",
     options: ["Eminem", "Michael Jackson", "The Beatles", "Madonna"],
     answer: "The Beatles"
+  },
+
+  {
+    question: "Which American artist is known as The Boss?",
+    options: ["Frank Sinatra", "Prince", "Bruce Springsteen", "Neil Diamond"],
+    answer: "Bruce Springsteen"
+  },
+
+  {
+    question: "Including streaming figures, what was the best selling UK single of the 2010s",
+    options: ["Shape Of You, Ed Sheeran", "Bad Romance, Lady Gaga", "Someone Like You, Adele", "Dance Monkey, Tones and I"],
+    answer: "Shape Of You, Ed Sheeran"
   },
 
   {
