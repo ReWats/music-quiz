@@ -19,10 +19,9 @@ body {
   display: block;
   background: #E0A75E;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 80px;
+  width: 80px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
 }
 
 #quiz {
