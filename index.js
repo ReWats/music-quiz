@@ -85,8 +85,6 @@ function showResult() {
   `;
 }
 
-showQuestion();
-
 const circle = document.querySelector('.circle');
 let position = 0;
 let direction = 1;
@@ -102,3 +100,6 @@ function bounce() {
   }
   requestAnimationFrame(bounce);
 }
+
+showQuestion();
+
