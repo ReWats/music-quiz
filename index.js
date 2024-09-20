@@ -24,7 +24,7 @@ const quizData = [
   },
 
   {
-    question: "Which act has had the most number one songs in the UK?",
+    question: "Which act has had the most number 1 songs in the UK?",
     options: ["Oasis", "Iron Maiden", "Elvis", "Queen"],
     answer: "Elvis"
   },
