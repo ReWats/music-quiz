@@ -86,3 +86,19 @@ function showResult() {
 }
 
 showQuestion();
+
+const circle = document.querySelector('.circle');
+let position = 0;
+let direction = 1;
+const acceleration = 0.1;
+
+function bounce() {
+  position += direction * 5;
+  direction -= acceleration;
+  circle.style.bottom = position + 'px';
+
+  if (position <= 0) {
+    direction = 1;
+  }
+  requestAnimationFrame(bounce);
+}
