@@ -15,6 +15,16 @@ body {
   color: #973131;
 }
 
+.circle {
+  display: block;
+  background: #E0A75E;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
+
 #quiz {
   max-width: 600px;
   margin: 0 auto;
