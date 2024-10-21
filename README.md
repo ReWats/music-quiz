@@ -1,1 +1,1 @@
-Simple music quiz using HTML, CSS and JS.
+Simple music quiz using HTML, CSS and JavaScript.
